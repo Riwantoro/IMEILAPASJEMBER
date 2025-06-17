@@ -1,0 +1,78 @@
+/* Global Styles */
+.app {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.app.dark {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+/* Header */
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  transition: color 0.3s;
+}
+.app.dark header h1 {
+  color: #ecf0f1;
+}
+
+/* Search Box */
+.search-box input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 1.2em;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* IMEI Counter */
+.imei-counter {
+  margin: 20px 0;
+}
+
+.imei-counter p {
+  font-size: 1.2em;
+}
+
+.imei {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.imei.clicked {
+  font-weight: bold;
+  color: green;
+}
+
+/* Staff List */
+.staff-list .staff-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+.staff-list .staff-item strong {
+  font-weight: bold;
+}
+.app.dark .staff-list .staff-item {
+  background-color: #2c2c2c;
+  color: #fff;
+}
+
+.no-data {
+  color: red;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}

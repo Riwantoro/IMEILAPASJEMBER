@@ -1,0 +1,18 @@
+.header {
+  background: none; /* Menghapus latar belakang */
+  padding: 20px; /* Menambahkan sedikit padding */
+  text-align: center; /* Rata tengah */
+  
+  /* Font Styling */
+  font-family: 'Roboto', sans-serif; /* Font modern */
+  font-weight: 700; /* Ketebalan font */
+  font-size: 2.5rem; /* Ukuran font besar */
+  
+  /* Warna Teks */
+  color: white; /* Warna putih cerah */
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Efek bayangan untuk keterbacaan */
+  
+  /* Tambahan efek */
+  letter-spacing: 1px; /* Sedikit spasi antar huruf */
+  margin-bottom: 20px; /* Jarak bawah */
+}

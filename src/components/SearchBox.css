@@ -1,0 +1,25 @@
+/* Kontainer kotak pencarian */
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* Input kotak pencarian */
+.search-box input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.5); /* Border default */
+  background: rgba(255, 255, 255, 0.1); /* Kaca buram */
+  -webkit-backdrop-filter: blur(10px); /* Efek blur untuk Safari */
+  backdrop-filter: blur(10px); /* Efek blur */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Transisi halus */
+}
+
+/* Efek saat input fokus */
+.search-box input:focus {
+  border-color: rgba(0, 123, 255, 0.8); /* Ubah warna border menjadi biru */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.8), 0 0 10px rgba(0, 123, 255, 0.5); /* Efek glowing */
+}

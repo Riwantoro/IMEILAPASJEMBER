@@ -1,0 +1,20 @@
+.dark-mode-toggle {
+  cursor: pointer;
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.dark-mode-toggle:hover {
+  transform: scale(1.1); /* Efek zoom saat hover */
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.7); /* Efek bayangan saat hover */
+}
+
+.logo {
+  width: 60px; /* Atur lebar sesuai kebutuhan */
+  height: auto; /* Menjaga proporsi gambar */
+  transition: transform 0.3s ease; /* Transisi halus saat hover */
+}
+
+.dark-mode-toggle:hover .logo {
+  transform: scale(1.1); /* Efek zoom saat hover */
+}

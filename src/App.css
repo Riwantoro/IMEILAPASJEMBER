@@ -1,0 +1,119 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('./assets/texture.png') no-repeat center center; /* Ganti dengan path gambar tekstur Anda */
+  background-size: cover; /* Menutupi seluruh area */
+  /* Jika ingin menggunakan contain, ganti dengan baris berikut: */
+  /* background-size: contain; */
+  overflow: hidden; /* Mencegah scroll */
+}
+
+.background-effect {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Di belakang semua elemen */
+  background: rgba(255, 255, 255, 0.1); /* Efek kaca buram */
+  -webkit-backdrop-filter: blur(10px); /* Efek blur untuk Safari */
+  backdrop-filter: blur(0px); /* Efek blur */
+  pointer-events: none; /* Tidak mengganggu interaksi */
+}
+
+/* Frosted Glass Effect */
+.frosted-container {
+  max-width: 800px;
+  margin: 50px auto; /* Margin atas untuk memberi jarak dari atas */
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2); /* Kaca buram */
+  border-radius: 15px;
+  box-shadow: 0 4px 20px #1051 (0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(15px); /* Efek blur untuk Safari */
+  backdrop-filter: blur(3px); /* Efek blur */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Border tipis */
+}
+
+/* Footer Styles */
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #fdfcfc; /* Warna teks hak cipta */
+}
+
+/* Card Styles */
+.staff-container {
+  padding: 1rem;
+}
+
+/* Tambahkan ini di App.css */
+.search-results {
+  max-height: 400px; /* Atur tinggi maksimum untuk hasil pencarian */
+  overflow-y: auto; /* Aktifkan scroll jika melebihi tinggi */
+  margin-top: 20px; /* Jarak atas untuk memberi ruang dari elemen di atas */
+}
+
+/* Tambahkan gaya untuk item hasil pencarian */
+.staff-item {
+  margin-bottom: 15px; /* Jarak bawah antar item */
+  padding: 10px; /* Padding untuk item */
+  border: 1px solid #ccc; /* Border untuk item */
+  border-radius: 5px; /* Sudut melengkung */
+  background-color: #9c9b9b; /* Warna latar belakang item */
+  transition: background-color 0.3s; /* Transisi halus */
+}
+
+.staff-item:hover {
+  background-color: #eef7ff; /* Warna saat hover */
+}
+
+/* Input Styles */
+.search-box input {
+  width: 90%;
+  max-width: 500px;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.2); /* Kaca buram */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(10px); /* Efek blur untuk Safari */
+  backdrop-filter: blur(10px); /* Efek blur */
+  transition: all 0.3s ease-in-out;
+}
+
+.search-box input:focus {
+  box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Button Styles */
+.imei-button {
+  background-color: rgba(2, 2, 2, 0.8); /* Kaca buram */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s; /* Transisi halus */
+}
+
+.imei-button:hover {
+  background-color: rgba(0, 123, 255, 1); /* Warna saat hover */
+  transform: scale(1.05); /* Efek zoom saat hover */
+}
+
+@keyframes shake {
+  0% { transform: translate(0); }
+  25% { transform: translate(-5px, 0); }
+  50% { transform: translate(5px, 0); }
+  75% { transform: translate(-5px, 0); }
+  100% { transform: translate(0); }
+}
+
+.shake {
+  animation: shake 0.5s ease; /* Durasi dan jenis easing */
+}
+

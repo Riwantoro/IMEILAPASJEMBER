@@ -1,0 +1,12 @@
+/* IMEICounter.css */
+.imei-counter {
+    margin: 20px 0;
+    padding: 10px;
+    text-align: center;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
