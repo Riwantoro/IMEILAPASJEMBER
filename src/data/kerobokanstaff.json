@@ -758,6 +758,30 @@
       "Imei2": "-",
       "Handphone3": "-",
       "Imei3": "-"
+     },
+
+        {
+      "NOMOR": 70,
+      "nama": "RM. Kristyo Nugroho",
+      "jabatan": "KEPALA LEMBAGA PEMASYARAKATAN",
+      "Handphone1": "Xiaomi redmi note 9",
+      "imei1": 359964850021621,
+      "Handphone2": "samsung flip",
+      "Imei2": "359990480021624",
+      "Handphone3": "-",
+      "Imei3": "-"
+     },
+
+         {
+      "NOMOR": 71,
+      "nama": "Dwi Saputra",
+      "jabatan": "Anggota Regu Jaga",
+      "Handphone1": "Xiaomi redmi note 9",
+      "imei1": 354158614132627,
+      "Handphone2": "-",
+      "Imei2": "-",
+      "Handphone3": "-",
+      "Imei3": "-"
      }
     
     ]
